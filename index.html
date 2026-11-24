@@ -3,7 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Siddharth Sagar — Magician</title>
+
+<!-- ===== SEO ===== -->
+<title>Magician in Patna | Siddharth Sagar – Wedding, Birthday &amp; Corporate Magic Shows</title>
+<meta name="description" content="Siddharth Sagar is a professional magician in Patna, Bihar. Book for wedding, birthday party, kids show, corporate event &amp; stage illusion shows. Call or WhatsApp 76779 45222.">
+<meta name="keywords" content="magician in Patna, magician in Bihar, birthday magician Patna, wedding magician Patna, kids magic show Patna, corporate magic show Patna, Siddharth Sagar magician">
+<meta name="author" content="Siddharth Sagar">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="geo.region" content="IN-BR">
+<meta name="geo.placename" content="Patna">
+<link rel="canonical" href="https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/">
+
+<!-- Social sharing (WhatsApp / Facebook preview) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Magician in Patna | Siddharth Sagar">
+<meta property="og:description" content="Professional magician &amp; illusionist in Patna, Bihar for weddings, birthdays, corporate events and stage shows.">
+<meta property="og:url" content="https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/">
+<meta property="og:image" content="https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/images/1.jpeg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured data: tells Google who/where you are -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EntertainmentBusiness",
+  "name": "Siddharth Sagar – Magician in Patna",
+  "description": "Professional magician and illusionist in Patna, Bihar for weddings, birthday parties, corporate events, school programmes and stage shows.",
+  "url": "https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/",
+  "image": "https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/images/1.jpeg",
+  "telephone": "+917677945222",
+  "email": "sagar.sidd.5@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gardanibagh",
+    "addressLocality": "Patna",
+    "addressRegion": "Bihar",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 25.587641, "longitude": 85.108952 },
+  "areaServed": ["Patna", "Danapur", "Bihta", "Hajipur", "Gaya", "Muzaffarpur", "Bhagalpur", "Bihar"],
+  "sameAs": [
+    "https://www.instagram.com/sagarsidd5/",
+    "https://www.facebook.com/sagar.sidd.5/",
+    "https://www.youtube.com/@sagarsidd5"
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -74,7 +121,6 @@
     display:flex; align-items:center; justify-content:center; flex-shrink:0;
     background: var(--sky-pale); color: var(--sky-deep); font-size:12px; text-align:center; padding:4px;
   }
-  /* FIX: photo avatar was stretched (no object-fit) */
   img.avatar{ object-fit:cover; object-position:68% 30%; padding:0; }
   .brand-name{ font-size: 30px; line-height:1.15; }
   .tagline{ color: var(--ink-muted); font-size:14.5px; margin-top:4px; }
@@ -106,10 +152,10 @@
                 radial-gradient(circle at 10% 90%, rgba(255,255,255,.10), transparent 50%);
     pointer-events:none;
   }
-  .hero h1{ color:#fff; font-size: clamp(32px, 6vw, 54px); line-height:1.15; position:relative; }
-  .hero p.sub{ color: rgba(255,255,255,.9); font-size:17px; max-width:520px; margin: 16px auto 0; position:relative; font-weight:300; }
+  .hero h1{ color:#fff; font-size: clamp(30px, 5.5vw, 50px); line-height:1.15; position:relative; }
+  .hero p.sub{ color: rgba(255,255,255,.9); font-size:17px; max-width:560px; margin: 16px auto 0; position:relative; font-weight:300; }
   .hero-tagline-slot{
-    margin: 26px auto 0; max-width: 480px; padding:16px 20px; border:1px dashed rgba(255,255,255,.55);
+    margin: 26px auto 0; max-width: 520px; padding:16px 20px; border:1px dashed rgba(255,255,255,.55);
     border-radius:4px; color: rgba(255,255,255,.9); font-size:14px; position:relative;
   }
   .hero-actions{ margin-top:32px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; position:relative; }
@@ -121,8 +167,6 @@
   .btn svg{ width:16px; height:16px; }
 
   /* layout: content + sidebar */
-  /* FIX: .layout padding used to wipe out .wrap's side padding, so content touched the screen edges on phones/tablets.
-     Also minmax(0,1fr) stops wide content from pushing the grid past the screen. */
   .layout{ display:grid; grid-template-columns: minmax(0,1fr) 320px; gap: 56px; padding: 64px 24px 30px; align-items:start; }
   @media (max-width: 1000px){ .layout{ grid-template-columns: minmax(0,1fr); gap:40px; } }
 
@@ -140,10 +184,7 @@
 
   .about-grid{ display:grid; grid-template-columns: 200px minmax(0,1fr); gap:26px; align-items:start; }
   .about-grid .frame{ aspect-ratio: 3/4; border:2px solid var(--sky); padding:6px; overflow:hidden; }
-  .about-grid .frame .empty-slot{ height:100%; display:flex; align-items:center; justify-content:center; text-align:center; }
-  /* FIX: About photo had no sizing, so a tall photo overflowed its frame */
   .about-grid .frame img{ width:100%; height:100%; object-fit:cover; object-position:center 20%; }
-  /* FIX: newlines in HTML collapse, so the bio needs <p> tags to keep its paragraphs */
   .bio{ font-size:16px; line-height:1.75; color: var(--ink); }
   .bio p{ margin:0 0 14px; }
   .bio p:last-child{ margin-bottom:0; }
@@ -153,33 +194,26 @@
   .show-item{ border:1px solid var(--sky-line); border-radius:6px; padding:20px 22px; transition: border-color .2s ease, box-shadow .2s ease; }
   .show-item:hover{ border-color: var(--sky); box-shadow: 0 8px 20px rgba(42,169,224,.1); }
   .show-item h3{ font-size:17px; color: var(--sky-deep); }
-  .show-item .empty-slot{ margin-top:10px; }
+  .show-item p{ margin:8px 0 0; font-size:15px; color: var(--ink); line-height:1.65; }
+
+  /* FAQ */
+  .faq-item{ border:1px solid var(--sky-line); border-radius:6px; padding:16px 20px; margin-bottom:12px; }
+  .faq-item h3{ font-size:16.5px; color: var(--sky-deep); }
+  .faq-item p{ margin:8px 0 0; font-size:15px; line-height:1.65; }
 
   .gallery-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:14px; }
-  .gallery-grid .empty-slot{ aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; text-align:center; }
   @media (max-width:560px){ .gallery-grid{ grid-template-columns: repeat(2,1fr); gap:10px; } }
-
-  /* gallery photos */
   .gallery-grid img{
-    width:100%;
-    aspect-ratio:1/1;
-    object-fit:cover;
-    object-position:70% center;
-    border-radius:6px;
-    border:1px solid var(--sky-line);
+    width:100%; aspect-ratio:1/1; object-fit:cover; object-position:70% center;
+    border-radius:6px; border:1px solid var(--sky-line);
     transition: transform .2s ease, box-shadow .2s ease;
   }
-  .gallery-grid img:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 10px 22px rgba(42,169,224,.18);
-  }
+  .gallery-grid img:hover{ transform: translateY(-3px); box-shadow: 0 10px 22px rgba(42,169,224,.18); }
 
   /* sidebar widgets */
   .widget{ background: var(--sky-pale); border:1px solid var(--sky-line); border-radius:6px; padding:22px; margin-bottom:24px; }
-  .widget h3{ font-size:15px; color: var(--sky-deep); margin-bottom:14px; letter-spacing:.02em; }
-  .widget .empty-slot{ background:#fff; }
+  .widget h2{ font-size:15px; color: var(--sky-deep); margin-bottom:14px; letter-spacing:.02em; }
 
-  /* video thumbnail (opens YouTube) */
   .video-box{ position:relative; display:block; aspect-ratio:16/9; border-radius:4px; overflow:hidden; background:#000; }
   .video-box img{ width:100%; height:100%; object-fit:cover; }
   .video-box .play{
@@ -193,7 +227,7 @@
   .contact-line a{ min-width:0; overflow-wrap:anywhere; }
   .contact-line a:hover{ color: var(--sky-deep); }
   .social-row{ display:flex; flex-wrap:wrap; gap:10px; }
-  .social-row .empty-slot{ width:44px; height:44px; padding:0; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; }
+  .social-row .empty-slot{ width:44px; height:44px; padding:0; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; background:#fff; }
   .social-row a.empty-slot{ transition: background .2s ease, color .2s ease, border-color .2s ease; }
   .social-row a.empty-slot:hover{ background: var(--sky); color:#fff; border-color: var(--sky); }
   .updates-list{ list-style:none; padding:0; margin:0; }
@@ -210,7 +244,6 @@
   }
   .float-wa svg{ width:26px; height:26px; fill:#fff; }
 
-  /* phones */
   @media (max-width: 480px){
     .head-top{ padding:22px 16px 16px; gap:14px; }
     .avatar{ width:64px; height:64px; }
@@ -235,7 +268,7 @@
 </head>
 <body>
 
-  <!-- Loading screen -->
+  <!-- Loading screen (uses div, not h1, so the page has only ONE h1 for SEO) -->
   <div id="loader" aria-label="Loading">
     <svg class="loader-hat" viewBox="0 0 160 150" aria-hidden="true">
       <g transform="translate(80,44)"><path class="rise" fill="#fff" d="M0-10Q1.5-1.5 10 0Q1.5 1.5 0 10Q-1.5 1.5-10 0Q-1.5-1.5 0-10Z"/></g>
@@ -247,7 +280,7 @@
       <rect x="48" y="96" width="64" height="12" fill="#EAF7FE"/>
       <ellipse cx="80" cy="120" rx="60" ry="12" fill="none" stroke="#0E2536" stroke-width="2"/>
     </svg>
-    <h1 class="loader-name">Siddharth Sagar</h1>
+    <div class="loader-name">Siddharth Sagar</div>
     <div class="loader-role">Magician &amp; Illusionist</div>
     <div class="loader-tag" id="loaderTag">Where the impossible becomes possible</div>
     <div class="loader-bar"><i></i></div>
@@ -255,19 +288,20 @@
 
   <header>
     <div class="head-top">
-      <img class="avatar" src="images/1.jpeg" alt="Siddharth Sagar">
+      <img class="avatar" src="images/1.jpeg" alt="Siddharth Sagar, magician in Patna">
       <div>
         <div class="brand-name">Siddharth Sagar</div>
-        <div class="tagline">Magician &amp; Illusionist</div>
+        <div class="tagline">Magician &amp; Illusionist in Patna, Bihar</div>
       </div>
     </div>
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Main navigation">
       <div class="nav-inner">
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#shows">Shows</a></li>
           <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <a class="nav-cta" href="#contact" style="display:none;" id="deskCta">Book Now</a>
@@ -279,14 +313,16 @@
       <a href="#about">About</a>
       <a href="#shows">Shows</a>
       <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </div>
   </header>
 
+  <main>
   <section class="hero" id="home">
-    <h1>Siddharth Sagar</h1>
-    <p class="sub">Magician &amp; Illusionist</p>
-    <div class="hero-tagline-slot">Hey there you'll get to know all about me in this page</div>
+    <h1>Magician in Patna – Siddharth Sagar</h1>
+    <p class="sub">Professional Magician &amp; Illusionist for Weddings, Birthday Parties, Corporate Events &amp; Stage Shows in Patna, Bihar</p>
+    <div class="hero-tagline-slot">Where the impossible becomes possible. Book your magic show today!</div>
     <div class="hero-actions">
       <a class="btn btn-solid" href="https://wa.me/917677945222?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20booking%20a%20show" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.8-1.7-.8-.2-.1-.4-.1-.6.1s-.7.8-.8 1c-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.5.6.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.1-.5-.3z"/></svg>
@@ -304,48 +340,83 @@
 
       <section class="block" id="about">
         <div class="eyebrow"><span>✦</span><i></i></div>
-        <h2>About</h2>
+        <h2>About Siddharth Sagar – Magician in Patna</h2>
         <div class="about-grid" style="margin-top:20px;">
-          <div class="frame"><img src="images/8.jpeg" alt="Siddharth Sagar with playing cards"></div>
+          <div class="frame"><img src="images/8.jpeg" alt="Siddharth Sagar, professional magician in Patna, performing a card trick"></div>
           <div class="bio">
             <p>Hi, I'm Siddharth Sagar, a professional magician from Patna, Bihar. I turn ordinary moments into things people keep talking about long after the show is over. My performances blend sleight of hand, mentalism, stage illusions, and close-up magic with humour and storytelling, so audiences of every age laugh, gasp, and stay hooked from the first trick to the last.</p>
             <p>I've performed at weddings, birthday parties, corporate events, school programmes, festivals, and stage shows across Patna and many districts of Bihar. Wherever I go, I bring the same energy: a show built around the audience, with plenty of participation and a few surprises nobody sees coming.</p>
             <p>For me, magic isn't just about tricks. It's about wonder, that moment when a whole room forgets everything else and simply believes in the impossible. I design every performance to create that feeling, so the memories last long after the applause.</p>
             <p>I'm available for private events, corporate functions, and stage shows in Patna and across Bihar.</p>
-            <p>Book me for your next event and give your guests something they'll never forget.</p>
+            <p>Looking for a magician in Patna for your next event? Book me and give your guests something they'll never forget.</p>
           </div>
         </div>
       </section>
 
       <section class="block" id="shows">
         <div class="eyebrow"><span>✦</span><i></i></div>
-        <h2>Shows &amp; Services</h2>
+        <h2>Magic Show Services in Patna</h2>
         <div class="shows-list" style="margin-top:20px;">
           <div class="show-item">
-            <h3>Add show / service name</h3>
-            <div class="empty-slot">Add a short description of this show or service</div>
+            <h3>Birthday Party Magician in Patna</h3>
+            <p>A fun, interactive magic show for kids' birthday parties at your home, banquet hall or society. Expect laughter, volunteer tricks and magic every child remembers.</p>
           </div>
           <div class="show-item">
-            <h3>Add show / service name</h3>
-            <div class="empty-slot">Add a short description of this show or service</div>
+            <h3>Wedding Magic Show in Patna</h3>
+            <p>Keep your wedding guests entertained with close-up magic and stage illusions during sangeet, reception or cocktail hours across Patna and Bihar.</p>
           </div>
           <div class="show-item">
-            <h3>Add show / service name</h3>
-            <div class="empty-slot">Add a short description of this show or service</div>
+            <h3>Corporate Event Magician</h3>
+            <p>Professional magic and mentalism for annual functions, product launches, team events and brand activations in Patna.</p>
+          </div>
+          <div class="show-item">
+            <h3>Kids &amp; School Magic Shows</h3>
+            <p>Entertaining and age-friendly magic shows for schools, annual days, festivals and children's programmes.</p>
+          </div>
+          <div class="show-item">
+            <h3>Stage Illusion &amp; Mentalism Show</h3>
+            <p>A full stage show of illusions, sleight of hand and mind-reading acts for large audiences, festivals and cultural events.</p>
+          </div>
+          <div class="show-item">
+            <h3>Close-up Magic</h3>
+            <p>Magic performed right in front of your guests with cards, coins and everyday objects, perfect for parties and receptions.</p>
           </div>
         </div>
       </section>
 
       <section class="block" id="gallery">
         <div class="eyebrow"><span>✦</span><i></i></div>
-        <h2>Gallery</h2>
+        <h2>Magic Show Gallery</h2>
         <div class="gallery-grid" style="margin-top:20px;">
-          <img src="images/2.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
-          <img src="images/3.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
-          <img src="images/4.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
-          <img src="images/5.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
-          <img src="images/6.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
-          <img src="images/7.jpeg" alt="Siddharth Sagar performing on stage" loading="lazy">
+          <img src="images/2.jpeg" alt="Magician Siddharth Sagar performing a stage magic show in Patna" loading="lazy">
+          <img src="images/3.jpeg" alt="Siddharth Sagar performing magic at an event in Bihar" loading="lazy">
+          <img src="images/4.jpeg" alt="Patna magician Siddharth Sagar entertaining guests" loading="lazy">
+          <img src="images/5.jpeg" alt="Siddharth Sagar live magic performance Patna" loading="lazy">
+          <img src="images/6.jpeg" alt="Siddharth Sagar illusionist stage show" loading="lazy">
+          <img src="images/7.jpeg" alt="Siddharth Sagar magic show for birthday and wedding events" loading="lazy">
+        </div>
+      </section>
+
+      <section class="block" id="faq">
+        <div class="eyebrow"><span>✦</span><i></i></div>
+        <h2>Frequently Asked Questions</h2>
+        <div style="margin-top:20px;">
+          <div class="faq-item">
+            <h3>How do I book a magician in Patna?</h3>
+            <p>Just call or WhatsApp on 76779 45222 with your event date, venue and type of event. I will confirm availability and share the details.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Which events do you perform at?</h3>
+            <p>Birthday parties, weddings, corporate events, school programmes, festivals, and stage shows.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Do you perform outside Patna?</h3>
+            <p>Yes. I perform across Bihar, including nearby districts. Contact me with your location for details.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How much does a magic show cost?</h3>
+            <p>The price depends on the event type, duration, location and number of guests. Message me on WhatsApp for a quote that fits your event.</p>
+          </div>
         </div>
       </section>
 
@@ -353,18 +424,18 @@
 
     <aside class="sidebar-col">
       <div class="widget">
-        <h3>Featured Video</h3>
+        <h2>Featured Video</h2>
         <a class="video-box" href="https://youtu.be/sVqhitl7FLY" target="_blank" rel="noopener" aria-label="Watch Siddharth Sagar's magic show on YouTube">
-          <img src="https://img.youtube.com/vi/sVqhitl7FLY/hqdefault.jpg" alt="Watch Siddharth Sagar's magic show">
+          <img src="https://img.youtube.com/vi/sVqhitl7FLY/hqdefault.jpg" alt="Watch Siddharth Sagar, magician in Patna, perform" loading="lazy">
           <span class="play">▶</span>
         </a>
-      </div><!-- FIX: this closing tag was missing, which nested the Contact box inside the video box -->
+      </div>
 
       <div class="widget" id="contact">
-        <h3>Contact Info</h3>
+        <h2>Contact Info</h2>
         <div class="contact-line">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
-          <a href="https://www.google.com/maps/search/?api=1&query=25.587641,85.108952" target="_blank" rel="noopener">Office: Patna / Gardanibagh</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=25.587641,85.108952" target="_blank" rel="noopener">Office: Gardanibagh, Patna, Bihar</a>
         </div>
         <div class="contact-line">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
@@ -381,25 +452,25 @@
       </div>
 
       <div class="widget">
-        <h3>Connect Now</h3>
+        <h2>Connect Now</h2>
         <div class="social-row">
           <a class="empty-slot" href="https://www.instagram.com/sagarsidd5/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
           <a class="empty-slot" href="https://www.facebook.com/sagar.sidd.5/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
           <a class="empty-slot" href="https://www.youtube.com/@sagarsidd5" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
-          <div class="empty-slot">X</div>
         </div>
       </div>
 
       <div class="widget">
-        <h3>Recent Updates</h3>
+        <h2>Areas Served</h2>
         <ul class="updates-list">
-          <li>Add a recent update / news item</li>
-          <li>Add a recent update / news item</li>
-          <li>Add a recent update / news item</li>
+          <li>Magician in Patna (Gardanibagh, Boring Road, Kankarbagh, Rajendra Nagar, Danapur)</li>
+          <li>Magician in Hajipur, Gaya, Muzaffarpur, Bhagalpur</li>
+          <li>Shows across Bihar</li>
         </ul>
       </div>
     </aside>
   </div>
+  </main>
 
   <a class="float-wa" href="https://wa.me/917677945222?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20booking%20a%20show" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
     <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.8-1.7-.8-.2-.1-.4-.1-.6.1s-.7.8-.8 1c-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.5.6.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.1-.5-.3z"/></svg>
@@ -407,7 +478,7 @@
 
   <footer>
     <div class="wrap">
-      <p>Siddharth Sagar — Magician &amp; Illusionist, Patna, Bihar</p>
+      <p>Siddharth Sagar — Magician &amp; Illusionist, Gardanibagh, Patna, Bihar</p>
       <p id="year"></p>
     </div>
   </footer>
