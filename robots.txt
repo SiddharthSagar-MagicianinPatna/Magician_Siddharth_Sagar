@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siddharthsagar-magicianinpatna.github.io/Magician_Siddharth_Sagar/sitemap.xml
